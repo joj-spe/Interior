@@ -1,0 +1,492 @@
+body
+{
+    width: 1440px;
+    height: 1080px;
+    background:#181719;
+}
+.menu #clic, .fifth 
+{
+    display: none;
+} 
+
+.inter
+{
+    width: 800px;
+    height: 500px;
+    top: 200px;
+    left: 600px;
+
+    position: absolute;
+}
+.haut
+{
+    width: 120px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    top: 42px;
+    left: 77px;
+
+    position: absolute;
+}
+h5
+{
+    width: 100px;
+    height: 16px;
+    left: 10px;
+    margin-top: 7.5px;
+
+    position: absolute;
+    writing-mode: horizontal-tb;
+    font-family: 'Crimson Pro';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.56px;
+    color: #FFFFFF;
+}
+.appropriate
+{
+    background-color: #181719;
+    width: 439px;
+    height: 200px;
+    top: 629px;
+    left: 927px;
+
+    position: absolute;
+}
+.personnal
+{
+    width: 42px;
+    height: 42px;
+    top: 19px;
+    left: 30px;
+
+    position: absolute;
+}
+h3
+{
+    width: 95px;
+    height: 17px;
+    top: 8px;
+    left: 87px;
+
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #FFFFFF;
+}
+h6
+{
+    width: 100px;
+    height: 15px;
+    top: 17px;
+    left: 87px;
+
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #828282;
+}
+.carte
+{
+    width: 280px;
+    height: 62px;
+    top: 67px;
+    left: 25px;
+
+    position: absolute;
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30.72px;
+    color: #FFFFFF;
+
+}
+.first
+{
+    width: 50px;
+    height: 16px;
+    left: 828px;
+    margin-top: 10.5px;
+    top: 36px;
+
+    position: absolute;
+    writing-mode: horizontal-tb;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    color: #FFFFFF;
+}
+hr
+{
+    width: 57px;
+    height: 1px;
+    top: 64px;
+    left: 828px;
+
+    position: absolute;
+    background-color: #FFFFFF;
+}
+.second
+{
+    width: 50px;
+    height: 16px;
+    left: 980px;
+    margin-top: 10.5px;
+    top: 36px;
+
+    position: absolute;
+    writing-mode: horizontal-tb;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    color: #FFFFFF;
+}
+.thirst
+{
+    width: 50px;
+    height: 16px;
+    left: 1166px;
+    margin-top: 10.5px;
+    top: 36px;
+
+    position: absolute;
+    writing-mode: horizontal-tb;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    color: #FFFFFF;
+}
+.fourth
+{
+    width: 50px;
+    height: 16px;
+    left: 1329px;
+    margin-top: 10.5px;
+    top: 36px;
+
+    position: absolute;
+    writing-mode: horizontal-tb;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    color: #FFFFFF;
+}
+h1
+{
+    width: 365px;
+    height: 61px;
+    top: 287px;
+    left: 75px;
+
+    position: absolute;
+    font-family: 'Lora';
+    font-size: 48px;
+    line-height: 61.44px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.descript
+{
+    width: 300px;
+    height: 170px;
+    top: 380px;
+    left: 75px;
+
+    position: absolute;
+    line-height: 29.26px;
+    font-family: 'Montsarrat';
+    font-size: 24px;
+    font-weight: 0;
+    color: #FFFFFF;
+}
+.read
+{
+    width: 120px;
+    height: 17px;
+    top: 570px;
+    left: 75px;
+
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.fleche
+{
+    width: 15px;
+    height: 5px;
+    top: 591px;
+    left: 192px;
+
+    position: absolute;
+    font-weight: 500;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+
+@media  screen and (max-width:750px) and (min-width: 100px)
+{
+    body
+    {
+        width: 375px;
+        height: 996px;
+        /* margin: auto; */
+        background: #181818;
+        z-index: 5;
+    }
+
+    .menu #clic
+    {
+        display: flex;
+    }
+    .un 
+    {
+        width: 380px;
+        height: 996px;
+        color: white;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        background-color: #181719;
+        padding-top: 300px;
+        position: absolute;
+        z-index: 7;
+    }
+    .ten 
+    {
+        display: none;
+    }
+    .un div 
+    {
+        width: 50px;
+        height: 50px;
+        margin-left: 160px;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Montserrat';
+    }
+    hr
+    {
+        width: 60px;
+        height: 1px;
+        position: absolute; 
+        top: 324px;
+        left: 161px;
+        background-color: #FFFFFF;
+    }
+    .un #first
+    {
+        font-weight: bolder;
+    }
+    .un #second
+    {
+        margin-left: 145px;
+        margin-top: 20px;
+    }
+    .un #third
+    {
+        margin-top: 20px;
+    }
+    .un #fourth
+    {
+        margin-left: 155px;
+        margin-top: 20px;
+    }
+    .zero
+    {
+        display: none;
+    }
+    .inter
+    {
+        width: 347px;
+        height: 270px;
+        top: 480px;
+        left: 20px;
+        position: absolute;
+    }
+    .haut
+    {
+        width: 120px;
+        height: 32px;
+        box-sizing: border-box;
+        border: 1px solid #FFFFFF;
+        top: 30px;
+        left: 20px;
+
+        position: absolute;
+    }
+    h5
+    {
+        width: 100px;
+        height: 16px;
+        left: 10px;
+        margin-top: 7.5px;
+
+        position: absolute;
+        writing-mode: horizontal-tb;
+        font-family: 'Crimson Pro';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.56px;
+        color: #FFFFFF;
+    }
+    .appropriate
+    {
+        background-color: #181719;
+        width: 285px;
+        height: 145px;
+        top: 700px;
+        left: 60px;
+
+        position: absolute;
+    }
+    .personnal
+    {
+        width: 42px;
+        height: 42px;
+        top: 19px;
+        left: 30px;
+
+        position: absolute;
+    }
+    h3
+    {
+        width: 95px;
+        height: 17px;
+        top: 8px;
+        left: 87px;
+
+        position: absolute;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17.07px;
+        color: #FFFFFF;
+    }
+    h6
+    {
+        width: 100px;
+        height: 15px;
+        top: 17px;
+        left: 87px;
+
+        position: absolute;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14.63px;
+        color: #828282;
+    }
+    .carte
+    {
+        width: 170px;
+        height: 10px;
+        top: 67px;
+        left: 25px;
+
+        position: absolute;
+        font-family: 'Lora';
+        font-weight: 200;
+        font-size: 17px;
+        line-height: 20.72px;
+        color: #FFFFFF;
+
+    }
+    h1
+    {
+        width: 275px;
+        height: 61px;
+        top: 87px;
+        left: 20px;
+
+        position: absolute;
+        font-family: 'Lora';
+        font-size: 36px;
+        line-height: 61.44px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+    .descript
+    {
+        width: 280px;
+        height: 170px;
+        top: 180px;
+        left: 20px;
+
+        position: absolute;
+        line-height: 29.26px;
+        font-family: 'Montsarrat';
+        font-size: 19px;
+        font-weight: 0;
+        color: #FFFFFF;
+    }
+    .read
+    {
+        width: 120px;
+        height: 17px;
+        top: 370px;
+        left: 20px;
+
+        position: absolute;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+    .fleche
+    {
+        width: 15px;
+        height: 5px;
+        top: 391px;
+        left: 140px;
+
+        position: absolute;
+        font-weight: 500;
+        font-size: 19px;
+        color: #FFFFFF;
+    }
+    
+        nav
+        {
+            width: 375px;
+            height: 756px;
+            background: #181719;
+        }
+        label
+        { 
+            width: 30px;
+            height: 10px;
+            top: 20px;
+            left: 365px;
+            cursor: pointer;
+            display: flex;
+
+            position: absolute;
+            color: #FFFFFF;
+            font-size: 40px;
+        }
+        .fifth
+        {
+            display: flex;
+            top: 10px;
+            left: 350px;
+            background-color: #181719;
+            border: none;
+            color: white;
+            font-size: 24px;
+            position: absolute;   
+            cursor: pointer;
+        }
+
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Interior</title>
+</head>
+<body>
+    <img class="inter" src="/photo1.png" alt="image d'interieur">
+    <div class="haut">
+        <h5>THIS INTERIOR</h5>
+    </div>
+    <div class="appropriate">
+        <img class="personnal" src="/photo2_modified.png" alt="personnal">
+        <h3>Aliza Webber</h3>
+        <h6>Interior designer</h6>
+        <p class="carte">Designed in 2020 by <br> Aliza Webber</p>
+    </div>
+    <div id="zero" class="zero">
+        <div class="first" id="first">Home</div>
+        <hr >
+        <div id="second" class="second">Collection</div>
+        <div id="third" class="thirst">About</div>
+        <div  id="fourth" class="fourth">Contact</div>
+        <button id="fifth" class="fifth">X</button>  
+    </div>
+    <div>
+        <h1>Modern interior</h1>
+        <p class="descript">
+            A full-Service residential & commercial interior design and <br>staging company offering professional organizing &<br> eco-services.         
+        </p>
+        <p class="read"> Read more</p>
+        <div class="fleche">  &rarr;</div>
+    </div>
+    <nav>
+        <div class="menu">
+            <label for="toggle" id="clic"> &equiv; </label>
+        </div>
+    </nav>
+    <script>
+        document.getElementById("clic").onclick = function (e)
+        {
+            e.preventDefault();
+            console.log("On y est ");
+            document.getElementById('zero').className = 'un';
+            document.getElementById('first').className = '';
+            document.getElementById('second').className = '';
+            document.getElementById('third').className = '';
+            document.getElementById('fourth').className = '';
+
+        }
+        document.getElementById("fifth").onclick = function(e)
+        {
+            e.preventDefault();
+            console.log("retour");
+            document.getElementById('zero').className = 'ten';
+
+            
+        }
+    </script>
+</body>
+</html>
